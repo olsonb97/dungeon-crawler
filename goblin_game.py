@@ -11,7 +11,7 @@ def slow_type(text, delay=0.01):
 def new_line():
     slow_type("------------------------------------")
 
-def get_valid_input(prompt, options=[]):
+def get_valid_input(prompt, options=None):
     while True:
         try:
             user_input = input(prompt)
